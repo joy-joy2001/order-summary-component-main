@@ -4,25 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image\png" sizes="32x32" href=".\images\favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Order summary card</title>
 </head>
 <body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
+  <header></header>
+  <main>
+    <article class="card-container">
+      <figure>
+        <img class="card-hero" src="" alt="person-listening-to-music">
+      </figure>
+      <section class="summary-section">
+        <h3>Order Summary</h3>
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      </section>
+      <section class="pricing-section">
+        <figure><img class="music-icon" src="" alt="music-icon"></figure>
+        <p class="plan-type">Annual Plan</p>
+        <p class="price-point">$59.99/year</p>
+        <p><a href="#">Change</a></p>
+      </section>
+      <section class="buttons">
+        <button class="proceed-btn">Proceed to Payment</button>
+        <button class="cancel-btn">Cancel Order</button>
+      </section>
+    </article>
+  </main>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
