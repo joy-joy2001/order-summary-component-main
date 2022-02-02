@@ -15,12 +15,6 @@ body {
     background-repeat: repeat-x;
     background-color: hsl(225, 100%, 94%);
     font-family: Red Hat Display;
-    
-    
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
 }
 
 footer { 
@@ -43,8 +37,6 @@ main {
     border-radius: 12px;
     width: 20em;
     height: 30em;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .card-container figure, .card-hero {
@@ -77,5 +69,4 @@ h3 {
     width: 15em;
     margin: auto;
     background-color: hsl(225, 100%, 98%);
-
 }
