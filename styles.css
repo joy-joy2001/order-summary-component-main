@@ -15,28 +15,31 @@ body {
     background-repeat: repeat-x;
     background-color: hsl(225, 100%, 94%);
     font-family: Red Hat Display;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer { 
-    font-size: 11px; text-align: center;
+    font-size: 11px; 
+    text-align: center;
 }
 
 footer a { 
     color: hsl(228, 45%, 44%); }
 
 main {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* height: 100%; */
+
 }
 
 .card-container {
     background-color: white;
     font-size: 1em;
     border-radius: 12px;
-    width: 20em;
-    height: 30em;
+    width: 22em;
+    height: 33em;
 }
 
 .card-container figure, .card-hero {
@@ -49,6 +52,7 @@ main {
 .summary-section {
     padding: 0 1em;
     text-align: center;
+    padding: 0 2em;
 }
 
 h3 {
@@ -63,10 +67,75 @@ h3 {
     color: hsl(224, 23%, 55%);
 }
 
-.pricing-section {
-    border: 1px solid grey;
+.big-section {
+    /* border: 1px solid grey; */
     border-radius: 12px;
-    width: 15em;
+    width: 20em;
     margin: auto;
     background-color: hsl(225, 100%, 98%);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 0.9em;
+}
+
+.pricing-section {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-type {
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+    margin: 0;
+}
+
+.price-point {
+    color: hsl(224, 23%, 55%);
+    margin: 0;
+}
+
+.change-price a {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.proceed-btn {
+    display: block;
+    font-weight: 800;
+    padding: 1em;
+    width: 20em;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 12px;
+    font-family: Red Hat Display;
+    border: none;
+    margin: 2em auto;
+    box-shadow: 0 .4em 1em hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+.proceed-btn:hover {
+    background-color: hsl(245, 75%, 80%);
+    box-shadow: none;
+}
+
+.cancel-btn {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: inherit;
+    border: 0;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel-btn:hover {
+    color: black;
+}
+
+.change-price a:hover {
+    color: hsl(245, 75%, 80%);
 }
