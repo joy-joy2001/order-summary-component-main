@@ -1,5 +1,81 @@
-.attribution { 
-    font-size: 11px; text-align: center; }
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    margin: 0;
     
-.attribution a { 
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+    font-family: Red Hat Display;
+    
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+footer { 
+    font-size: 11px; text-align: center;
+}
+
+footer a { 
     color: hsl(228, 45%, 44%); }
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    background-color: white;
+    font-size: 1em;
+    border-radius: 12px;
+    width: 20em;
+    height: 30em;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.card-container figure, .card-hero {
+    width: inherit;
+    margin: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.summary-section {
+    padding: 0 1em;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    
+}
+
+.summary-section p {
+    font-size: smaller;
+    font-weight: light;
+    color: hsl(224, 23%, 55%);
+}
+
+.pricing-section {
+    border: 1px solid grey;
+    border-radius: 12px;
+    width: 15em;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+
+}
