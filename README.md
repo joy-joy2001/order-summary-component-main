@@ -16,7 +16,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -57,6 +56,9 @@ Don't even bother viewing in on mobile yet cos I still don't get media queries..
 
 Will go back to my previous project, the 3-card component preview thingy and try to recreate the project using flexbox!
 Relative and Absolute units is another thing. The way I was just guessing how many 'ems' this thing should be and the other thign should be!! I;m sure theres a more succint way to use these types of measurements. I understand using percentages but I decided I wanted to go withs 'em' this time round and I still don't understand how it works. All I know is that it just does... 
+
+PS...
+I'm gonna redo this site again cos ngl, I feel like this could have been written with less CSS. At one point I got frustrated and I said 'bun this, I'll just repeat the rules...' Obviously not a good trait for a programmer to have, its just that I was learning Flexbox and it really grinded my gears so I neglected using the proper guidelines LOOOL
 
 ### Useful resources
 
