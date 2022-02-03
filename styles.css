@@ -29,10 +29,6 @@ footer {
 footer a { 
     color: hsl(228, 45%, 44%); }
 
-main {
-    /* height: 100%; */
-
-}
 
 .card-container {
     background-color: white;
