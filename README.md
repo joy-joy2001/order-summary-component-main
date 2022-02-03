@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/joy-joy2001/order-summary-component-main)
+- Live Site URL: [live site](https://joy-joy2001.github.io/order-summary-component-main/)
 
 ## My process
 
@@ -50,8 +50,6 @@ Users should be able to:
 I learnt Flexbox and how to use it; its truly a powerful layout tool however I feel like I need more practice in it and I think maybe this wasn't the right project to practice flexbox in as it was quite difficult for me but hey-ho, I learnt a lot of things...
 Don't even bother viewing in on mobile yet cos I still don't get media queries...
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 Will go back to my previous project, the 3-card component preview thingy and try to recreate the project using flexbox!
@@ -67,7 +65,7 @@ I'm gonna redo this site again cos ngl, I feel like this could have been written
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Add your name here](https://joy-joy2001.github.io/order-summary-component-main/)
 
 ## Acknowledgments
 
